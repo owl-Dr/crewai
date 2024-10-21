@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "post-generator"
+version = "0.1.0"
+description = "A social media post generator using Crew AI and Gemini"
+authors = ["Harshit"]  # Update with your email
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<=3.12.3"
+crewai = "^0.74.2"
+crewai-tools = "^0.13.2"
+langchain-google-genai = "^2.0.1"
+load-dotenv = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
